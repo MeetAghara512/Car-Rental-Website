@@ -1,0 +1,36 @@
+.OuterBox{
+   justify-content: center;
+   text-align: center;
+   margin-top: 20vh;
+   height: 100vh;
+}
+.Getcar{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    width: fit-content;
+    height: fit-content; 
+}
+.text-content{
+    text-align: center;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+        .OuterBox {
+            flex-direction: column;
+            padding-top: 0px;
+            align-items: center;
+            /* display: flex; */
+            justify-content: center;
+        }
+        .GetCar{
+            margin: auto;
+        }
+        .SellCar{
+                margin: auto;
+        }
+  }

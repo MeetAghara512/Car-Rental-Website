@@ -1,0 +1,21 @@
+.SmallCard-ul{
+      display: flex;
+      gap: 15px;
+      /* margin-bottom: 20px; */
+      flex-wrap: wrap;
+      /* margin-top: 3px; */
+}
+.SmallCard-li{
+      width: 100px;
+      border: 1px solid black;
+      border-radius: 5px;
+      font-size: 1rem;
+}
+.SmallCard{
+      border: 2px solid black;
+      text-align: center;
+      height: 4rem;
+      border-radius: 1rem;
+      margin-bottom: 1rem;
+      background-color: rgb(234, 234, 193);
+}
